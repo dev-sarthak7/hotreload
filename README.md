@@ -14,6 +14,9 @@ A fast, robust CLI tool for Go development that watches your project for file ch
 - **Intelligent file filtering** — ignores `.git/`, `node_modules/`, swap files, build artifacts, and editor temp files
 - **OS watch-limit aware** — non-fatal on directories that can't be watched (skips with a warning)
 
+## Guide
+Project Details and info:- <a href="https://docs.google.com/document/d/1GYEOJOM9mkRGVtJtiOCwxCDjLzZ4oRQF3BrI8BRES58/edit?usp=sharing">Doc</a>
+
 ## Installation
 
 ```bash
