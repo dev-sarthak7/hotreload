@@ -30,6 +30,7 @@ build-testserver:
 
 ## demo: Build hotreload and run it against the testserver
 demo: build
+	@mkdir -p ./testserver/bin
 	@echo ""
 	@echo "==> Starting hotreload demo"
 	@echo "==> Edit testserver/cmd/server/main.go to trigger a reload"

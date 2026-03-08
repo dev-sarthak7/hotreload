@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const version = "1.0.0"
+const version = "5.0.0"
 
 func main() {
 	port := os.Getenv("PORT")
